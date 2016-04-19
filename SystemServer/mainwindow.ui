@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTableWidget" name="sqlView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>621</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="connectDBButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect to database</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showDBButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>320</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show DataBase</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inserttoDBButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>360</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert to database</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deletefromDBButton">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>280</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete from database</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>110</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchinDBButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>400</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search date</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="disconAllButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>620</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect all users</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>620</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startserverButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>280</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start Server</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>620</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fill places</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="connectedBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>341</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ipEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>670</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="ipBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>670</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Database Ip</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
